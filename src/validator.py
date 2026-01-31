@@ -1,3 +1,5 @@
+# Function to validate SEO dataset
+
 def seo_validate(data, max_words=60):
     clean = []
     for item in data:

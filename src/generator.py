@@ -11,6 +11,8 @@ groq_api_key = os.getenv("GROQ_API_KEY")
 
 groq = OpenAI(base_url = "https://api.groq.com/openai/v1", api_key = groq_api_key)
 
+# Function to generate synthetic SEO dataset
+
 def generate_synthetic_data(
         domain: str,
         n_samples:  int,
